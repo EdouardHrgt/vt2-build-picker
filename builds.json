@@ -1,0 +1,290 @@
+[
+  {
+    "career": "waystalker",
+    "melee": "greatsword",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "2-3-2-1-3-3",
+    "image": "waystalker.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "waystalker",
+    "melee": "sword and dagger",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "2-2-3-2-3-3",
+    "image": "waystalker.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "waystalker",
+    "melee": "dual dagger",
+    "meleeProps": [
+      "block cost reduction",
+      " stamina",
+      " parry"
+    ],
+    "range": "hagbane",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " barrage"
+    ],
+    "talents": "1-3-2-2-3-3",
+    "image": "waystalker.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "waystalker",
+    "melee": "sword",
+    "meleeProps": [
+      "stamina",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "javelin",
+    "rangeProps": [
+      "skaven",
+      " armored",
+      " conservative shooter"
+    ],
+    "talents": "2-2-3-1-3-2",
+    "image": "waystalker.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "handmaiden",
+    "melee": "elven axe",
+    "meleeProps": [
+      "stamina",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "moonbow",
+    "rangeProps": [
+      "skaven",
+      " crit chance",
+      " hunter"
+    ],
+    "talents": "1-3-1-3-2-3",
+    "image": "handmaiden.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "handmaiden",
+    "melee": "glaive",
+    "meleeProps": [
+      "stamina",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-3-1-1-3-3",
+    "image": "handmaiden.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "handmaiden",
+    "melee": "dual sword",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "javelin",
+    "rangeProps": [
+      "skaven",
+      " armored",
+      " conservative shooter"
+    ],
+    "talents": "1-1-3-3-3-2",
+    "image": "handmaiden.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "handmaiden",
+    "melee": "spear",
+    "meleeProps": [
+      "stamina",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "moonbow",
+    "rangeProps": [
+      "skaven",
+      "infantry",
+      " scrounger"
+    ],
+    "talents": "1-3-1-1-2-3",
+    "image": "handmaiden.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "shade",
+    "melee": "dual daggers",
+    "meleeProps": [
+      "block cost reduction",
+      " stamina",
+      " parry"
+    ],
+    "range": "moonbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " hunter"
+    ],
+    "talents": "1-1-1-1-1-1",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "shade",
+    "melee": "sword and dagger",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-3-2-3-1-3",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "shade",
+    "melee": "spear",
+    "meleeProps": [
+      "crit chance",
+      " stamina",
+      " swift slaying"
+    ],
+    "range": "javelin",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-3-2-1-1-3",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "shade",
+    "melee": "elven axe",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "swift bow",
+    "rangeProps": [
+      "skaven",
+      " crit chance",
+      " hunter"
+    ],
+    "talents": "1-3-2-1-1-1",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "sott",
+    "melee": "dual daggers",
+    "meleeProps": [
+      "block cost reduction",
+      " stamina",
+      " parry"
+    ],
+    "range": "deepwood staff",
+    "rangeProps": [
+      "skaven",
+      " armored",
+      " thermal equalizer"
+    ],
+    "talents": "1-2-1-3-3-2",
+    "image": "sott.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "sott",
+    "melee": "sword and dagger",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "deepwood staff",
+    "rangeProps": [
+      "skaven",
+      " armored",
+      " thermal equalizer"
+    ],
+    "talents": "1-2-1-3-1-2",
+    "image": "sott.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "sott",
+    "melee": "spear",
+    "meleeProps": [
+      "crit chance",
+      " stamina",
+      " swift slaying"
+    ],
+    "range": "moonbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " hunter"
+    ],
+    "talents": "1-1-1-3-2-3",
+    "image": "sott.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "sott",
+    "melee": "glaive",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "skaven",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-1-1-3-3-3",
+    "image": "sott.webp",
+    "charm": ["atk speed", " chaos"]
+  }
+]

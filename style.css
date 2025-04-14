@@ -1,0 +1,194 @@
+:root {
+  --clr-light-gray: rgb(188, 206, 217);
+  --clr-light-grayish-blue: rgb(113, 145, 165);
+  --clr-light-blue: rgb(122, 183, 226);
+  --clr-gray: rgb(48, 72, 89);
+  --clr-dark-gray: rgb(21, 41, 56);
+  --clr-orange: rgb(253, 162, 20);
+  --clr-trans-orange: rgba(253, 162, 20, 0.7);
+  --filter: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  font-family: "Markazi Text", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+p {
+  color: var(--clr-light-gray);
+  font-size: 1.4em;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-orange);
+}
+
+button {
+  display: block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+a,
+button,
+svg {
+  transition: all 0.3s;
+}
+
+body {
+  height: 100dvh;
+  width: 100%;
+  margin: auto;
+  background-image: url("./img/vt2-bckg.png");
+}
+
+.itsRolled {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.itsRolled.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.roll {
+  padding-top: 10vh;
+  position: relative;
+}
+
+.roll button {
+  background-color: var(--clr-trans-orange);
+  margin-inline: auto;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding: 10px 70px;
+  border-radius: 25px;
+}
+
+.roll button:hover {
+  background-color: var(--clr-orange);
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  letter-spacing: 0.7px;
+  margin: 5rem auto 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
+}
+
+h2 {
+  color: var(--clr-orange);
+  font-size: 3em;
+  margin-bottom: 3px;
+}
+
+h3 {
+  font-size: 2.5em;
+  color: var(--clr-light-blue);
+  margin-top: 7px;
+}
+
+h4 {
+  font-size: 3em;
+  color: var(--clr-orange);
+}
+
+.build,
+.weapons,
+.talents {
+  display: flex;
+  gap: 2rem;
+}
+
+.melee,
+.range {
+  width: 360px;
+}
+
+.build {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--filter);
+  padding-top: 4rem;
+}
+
+.talents {
+  justify-content: center;
+  align-items: center;
+  background-color: var(--filter);
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.talents-p {
+  font-size: 2rem;
+  margin-left: -15px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 0.3rem;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 870px) {
+  h1 {
+    margin: 2rem auto 0;
+    font-size: 2.5rem;
+  }
+  .build,
+  .weapons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .build {
+    padding-top: 1rem;
+  }
+  .weapons {
+    text-align: center;
+  }
+  .talents {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  footer {
+    position: relative;
+  }
+}

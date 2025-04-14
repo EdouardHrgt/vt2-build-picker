@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vermintide 2 build randomizer</title>
+    <meta
+      name="description"
+      content="Roll random premade builds for all careers"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="roll">
+        <button id="mybtn">Roll a build</button>
+      </section>
+      <section class="itsRolled">
+        <h1 id="career"></h1>
+        <section class="build">
+          <img id="portrait" src="" alt="#" />
+          <div class="weapons">
+            <div class="melee">
+              <h2>Melee weapon:</h2>
+              <p id="melee-name"></p>
+              <h3>Properties:</h3>
+              <p id="melee-proper"></p>
+            </div>
+            <div class="range">
+              <h2>Range weapon:</h2>
+              <p id="range-name"></p>
+              <h3>Properties:</h3>
+              <p id="range-proper"></p>
+            </div>
+            <div class="charm-props">
+                <h2>Charm:</h2>
+                <p id="charm"></p>
+              </div>
+          </div>
+        </section>
+        <div class="talents">
+          <h4>Talents:</h4>
+          <p class="talents-p" id="talents"></p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>App By Bobely</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
