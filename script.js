@@ -1,4 +1,4 @@
-console.log("Hey you have nothing to see here :-3")
+console.log("Hey you have nothing to see here :-3");
 async function loadBuilds() {
   const res = await fetch("./builds.json");
   const data = await res.json();
@@ -17,11 +17,16 @@ function updateDOMWithBuild(finalBuild) {
 }
 
 const rollBuild = document.getElementById("mybtn");
+let firstClick = true;
 
 rollBuild.addEventListener("click", () => {
   loadBuilds().then((data) => {
     const rng = Math.floor(Math.random() * data.length);
     const finalBuild = data[rng];
+    if (firstClick) {
+      rollBuild.classList.add("slide-in");
+      firstClick = false;
+    }
     const rolledSection = document.querySelector(".itsRolled");
     rolledSection.classList.add("visible");
 
