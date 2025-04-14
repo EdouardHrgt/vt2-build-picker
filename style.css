@@ -75,17 +75,17 @@ body {
 }
 
 .roll button {
-  background-color: var(--clr-trans-orange);
+  background-color: var(--clr-orange);
   margin-inline: auto;
   color: white;
-  font-size: 2em;
+  font-size: 2.3em;
   letter-spacing: 1px;
   padding: 10px 70px;
   border-radius: 25px;
 }
 
 .roll button:hover {
-  background-color: var(--clr-orange);
+  background-color: var(--clr-trans-orange);
 }
 
 h1 {
@@ -96,6 +96,28 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
+  position: relative;
+  width: fit-content;
+}
+
+h1:after {
+  content: "";
+  width: 2.5ch;
+  height: 3px;
+  background-color: var(--clr-orange);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h1:before {
+  content: "";
+  width: 2.5ch;
+  height: 3px;
+  background-color: var(--clr-orange);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 h2 {
@@ -166,6 +188,12 @@ footer {
 footer p {
   font-size: 1.5em;
   letter-spacing: 1px;
+}
+
+span {
+  color: rgb(243, 78, 78);
+  font-size: 1.2rem;
+  text-decoration: overline;
 }
 
 @media screen and (max-width: 870px) {
