@@ -11,6 +11,15 @@ Unlike full randomizers that often generate unfun or inefficient builds, this ap
 - Build format stored in a simple JSON structure
 - Community contributions welcome!
 
+## 🚀 Getting Involved
+The build list is constantly evolving. If you have a build you'd like to share, feel free to submit it or contact me. All contributions that fit the app’s philosophy (off-meta but effective) are appreciated!
+
+## 📜 License & Copyright
+This application and its code are my personal property.
+Partial or full reproduction, reuse, or distribution of this app or its code is not allowed without my explicit consent.
+
+Made with 🐀 by a fellow Ubersreik five fan.
+
 ## 📁 Build Format
 
 Builds are stored in the `builds.json` file as a 3D array.  
@@ -35,12 +44,3 @@ Each build object follows this structure:
   "image": "pyromancer.webp",
   "charm": ["atk speed", "chaos"]
 }
-
-🚀 Getting Involved
-The build list is constantly evolving. If you have a build you'd like to share, feel free to submit it or contact me. All contributions that fit the app’s philosophy (off-meta but effective) are appreciated!
-
-📜 License & Copyright
-This application and its code are my personal property.
-Partial or full reproduction, reuse, or distribution of this app or its code is not allowed without my explicit consent.
-
-Made with 🐀 by a fellow Ubersreik five fan.
