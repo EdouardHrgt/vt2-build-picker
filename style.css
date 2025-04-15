@@ -58,6 +58,21 @@ body {
   background-image: url("./img/vt2-bckg.png");
 }
 
+header  {
+
+}
+
+#career-select {
+  background: none;
+  color: var(--clr-light-grayish-blue);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 0.5em ;
+  display: block;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
 .itsRolled {
   opacity: 0;
   pointer-events: none;
@@ -70,7 +85,7 @@ body {
 }
 
 .roll {
-  padding-top: 10vh;
+  padding-top: calc(10vh - 3rem);
   position: relative;
 }
 

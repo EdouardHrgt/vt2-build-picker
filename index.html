@@ -6,61 +6,79 @@
     <title>Vermintide 2 build randomizer</title>
     <meta
       name="description"
-      content="Roll random premade builds for all careers"
-    />
+      content="Roll random premade builds for all careers" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
+
   <body>
+
     <main>
+      <header>
+        <select id="career-select">
+          <option value>-- select a career or pray lord RNG --</option>
+          <option value="waystalker">Waystalker</option>
+          <option value="handmaiden">Handmaiden</option>
+          <option value="shade">Shade</option>
+          <option value="sott">Sister of the Thorn</option>
+          <option value="mercenary">Mercenary</option>
+          <option value="huntsman">Huntsman</option>
+          <option value="foot knight">Foot Knight</option>
+          <option value="grail knight">Grail Knight</option>
+          <option value="battle wizard">Battle Wizard</option>
+          <option value="pyromancer">Pyromancer</option>
+        </select>
+      </header>
+
       <section class="roll">
         <button id="mybtn">Roll a build!</button>
-      <section class="itsRolled">
-        <h1 id="career"></h1>
-        <section class="build">
-          <div class="img-wrapper">
-            <img id="portrait" src="" alt="#" />
-          </div>
-          <div class="weapons">
-            <div class="melee">
-              <h2>Melee weapon:</h2>
-              <p id="melee-name"></p>
-              <h3>Properties:</h3>
-              <p id="melee-proper"></p>
+        <section class="itsRolled">
+          <h1 id="career"></h1>
+          <section class="build">
+            <div class="img-wrapper">
+              <img id="portrait" src alt="#" />
             </div>
-            <div class="range">
-              <h2>Range weapon:</h2>
-              <p id="range-name"></p>
-              <h3>Properties:</h3>
-              <p id="range-proper"></p>
-            </div>
-            <div class="charm-props">
+            <div class="weapons">
+              <div class="melee">
+                <h2>Melee weapon:</h2>
+                <p id="melee-name"></p>
+                <h3>Properties:</h3>
+                <p id="melee-proper"></p>
+              </div>
+              <div class="range">
+                <h2>Range weapon:</h2>
+                <p id="range-name"></p>
+                <h3>Properties:</h3>
+                <p id="range-proper"></p>
+              </div>
+              <div class="charm-props">
                 <h2>Charm:</h2>
                 <p id="charm"></p>
               </div>
+            </div>
+          </section>
+          <div class="talents">
+            <h4>Talents:</h4>
+            <p class="talents-p" id="talents"></p>
           </div>
         </section>
-        <div class="talents">
-          <h4>Talents:</h4>
-          <p class="talents-p" id="talents"></p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>App By Bobely</p>
-    </footer>
-  </body>
-</html>
+      </main>
+
+      <footer>
+        <p>App By Bobely</p>
+      </footer>
+
+    </body>
+  </html>

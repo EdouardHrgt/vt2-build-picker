@@ -1,4 +1,3 @@
-console.log("Hey you have nothing to see here :-3");
 async function loadBuilds() {
   const res = await fetch("./builds.json");
   const data = await res.json();
@@ -17,16 +16,32 @@ function updateDOMWithBuild(finalBuild) {
 }
 
 const rollBuild = document.getElementById("mybtn");
+const careerSelect = document.getElementById("career-select");
 let firstClick = true;
 
 rollBuild.addEventListener("click", () => {
   loadBuilds().then((data) => {
-    const rng = Math.floor(Math.random() * data.length);
-    const finalBuild = data[rng];
+    const selectedCareer = careerSelect.value;
+
+    let filteredData = data;
+
+    if (selectedCareer) {
+      filteredData = data.filter((build) => build.career === selectedCareer);
+    }
+
+    if (filteredData.length === 0) {
+      alert("no build available for this career.");
+      return;
+    }
+
+    const rng = Math.floor(Math.random() * filteredData.length);
+    const finalBuild = filteredData[rng];
+
     if (firstClick) {
       rollBuild.classList.add("slide-in");
       firstClick = false;
     }
+
     const rolledSection = document.querySelector(".itsRolled");
     rolledSection.classList.add("visible");
 
