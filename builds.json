@@ -358,5 +358,347 @@
     "talents": "1-1-2-3-1-1",
     "image": "mercenary.webp",
     "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "huntsman",
+    "melee": "mace",
+    "meleeProps": [
+      "stamina",
+      " block cost reduction",
+      " opportunist"
+    ],
+    "range": "repeater handgun",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " scrounger"
+    ],
+    "talents": "1-1-3-1-1-1",
+    "image": "huntsman.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "huntsman",
+    "melee": "sword and shield",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "longbow",
+    "rangeProps": [
+      "armored",
+      " skaven",
+      " hunter"
+    ],
+    "talents": "1-3-3-2-1-2",
+    "image": "huntsman.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "huntsman",
+    "melee": "bret sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "handgun",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-2-2-2-2-1",
+    "image": "huntsman.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "huntsman",
+    "melee": "tuskgor spear",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "blunderbuss",
+    "rangeProps": [
+      "skaven",
+      " crit chance",
+      " scrounger"
+    ],
+    "talents": "1-1-3-1-1-2",
+    "image": "huntsman.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "foot knight",
+    "melee": "halberd",
+    "meleeProps": [
+      "attack speed",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "handgun",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "2-3-3-3-1-3",
+    "image": "fk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "foot knight",
+    "melee": "bret sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "blunderbuss",
+    "rangeProps": [
+      "skaven",
+      " crit chance",
+      " hunter"
+    ],
+    "talents": "2-3-3-3-1-3",
+    "image": "fk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "foot knight",
+    "melee": "two handed hammer",
+    "meleeProps": [
+      "attack speed",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "handgun",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-2-3-3-1-3",
+    "image": "fk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "foot knight",
+    "melee": "mace",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "repeater handgun",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " conservative shooter"
+    ],
+    "talents": "1-3-3-3-1-2",
+    "image": "fk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "grail knight",
+    "melee": "two handed hammer",
+    "meleeProps": [
+      "attack speed",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "mace and shield",
+    "rangeProps": [
+      "stamina",
+      " block cost reduction",
+      " opportunist"
+    ],
+    "talents": "1-3-2-3-3-3",
+    "image": "gk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "grail knight",
+    "melee": "greatsword",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "mace",
+    "rangeProps": [
+      "stamina",
+      " block cost reduction",
+      " opportunist"
+    ],
+    "talents": "1-2-2-3-1-1",
+    "image": "gk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "grail knight",
+    "melee": "executioner sword",
+    "meleeProps": [
+      "attack speed",
+      " chaos",
+      " swift slaying"
+    ],
+    "range": "sword and shield",
+    "rangeProps": [
+      "stamina",
+      " block cost reduction",
+      " opportunist"
+    ],
+    "talents": "1-1-2-3-1-1",
+    "image": "gk.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "battle wizard",
+    "melee": "dagger",
+    "meleeProps": [
+      "stamina",
+      " block cost reduction",
+      " parry"
+    ],
+    "range": "bolt staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " thermal EQ"
+    ],
+    "talents": "1-1-3-2-1-1",
+    "image": "bw.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "battle wizard",
+    "melee": "fire sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "flamestorm staff",
+    "rangeProps": [
+      "skaven",
+      " armored",
+      " barrage"
+    ],
+    "talents": "1-3-3-1-2-2",
+    "image": "bw.webp",
+    "charm": ["armored", " skaven"]
+  },
+  {
+    "career": "battle wizard",
+    "melee": "fire sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "coruscation staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " thermal EQ"
+    ],
+    "talents": "1-2-3-1-2-3",
+    "image": "bw.webp",
+    "charm": ["chaos", " infantry"]
+  },
+  {
+    "career": "battle wizard",
+    "melee": "crowbill",
+    "meleeProps": [
+      "crit chance",
+      " stamina",
+      " swift slaying"
+    ],
+    "range": "bolt staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " thermal EQ"
+    ],
+    "talents": "2-1-2-2-3-3",
+    "image": "bw.webp",
+    "charm": ["infantry", " atk speed"]
+  },
+  {
+    "career": "pyromancer",
+    "melee": "sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "beam staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " hunter"
+    ],
+    "talents": "1-1-1-1-1-1",
+    "image": "pyromancer.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "pyromancer",
+    "melee": "ensorcelled reaper",
+    "meleeProps": [
+      "block cost reduction",
+      " attack speed",
+      " swift slaying"
+    ],
+    "range": "conflagration staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " hunter"
+    ],
+    "talents": "1-3-1-3-3-2",
+    "image": "pyromancer.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "pyromancer",
+    "melee": "sword",
+    "meleeProps": [
+      "crit chance",
+      " block cost reduction",
+      " swift slaying"
+    ],
+    "range": "coruscation staff",
+    "rangeProps": [
+      "chaos",
+      " crit chance",
+      " heat sink"
+    ],
+    "talents": "1-3-1-1-1-1",
+    "image": "pyromancer.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "pyromancer",
+    "melee": "mace",
+    "meleeProps": [
+      "block cost reduction",
+      " crit chance",
+      " swift slaying"
+    ],
+    "range": "fireball staff",
+    "rangeProps": [
+      "chaos",
+      " infantry",
+      " barrage"
+    ],
+    "talents": "1-3-1-3-3-2",
+    "image": "pyromancer.webp",
+    "charm": ["atk speed", " chaos"]
   }
 ]

@@ -85,7 +85,7 @@ body {
 }
 
 .roll button:hover {
-  background-color: var(--clr-trans-orange);
+  background-color: var(--clr-light-blue);
 }
 
 h1 {
@@ -129,15 +129,15 @@ h2 {
 }
 
 h2::before {
-  content: '';
+  content: "";
   width: 3.5ch;
   height: 3px;
   background-color: var(--clr-gray);
   position: absolute;
 }
 
-h2::after{
-  content: '';
+h2::after {
+  content: "";
   width: 2ch;
   height: 3px;
   background-color: var(--clr-gray);
@@ -145,7 +145,6 @@ h2::after{
   bottom: 0;
   right: 0;
 }
-
 
 h3 {
   font-size: 2.5em;
@@ -185,6 +184,30 @@ h4 {
   padding-top: 4rem;
 }
 
+.talents h4 {
+  position: relative;
+}
+
+.talents h4::before {
+  content: "";
+  width: 2ch;
+  height: 3px;
+  background-color: var(--clr-gray);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.talents h4::after {
+  content: "";
+  width: 2ch;
+  height: 3px;
+  background-color: var(--clr-gray);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .talents-p {
   font-size: 2rem;
   margin-left: -15px;
@@ -215,6 +238,12 @@ span {
   color: rgb(243, 78, 78);
   font-size: 1.2rem;
   text-decoration: overline;
+}
+
+#melee-name,
+#range-name,
+#charm {
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 870px) {
