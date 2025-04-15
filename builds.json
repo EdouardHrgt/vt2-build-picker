@@ -428,5 +428,85 @@
     "talents": "1-3-3-2-1-2",
     "image": "uc.webp",
     "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "necromancer",
+    "melee": "crowbill",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "coruscation staff",
+    "rangeProps": ["infantry", " chaos", " thermal EQ"],
+    "talents": "2-3-2-1-3-2",
+    "image": "necromancer.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "necromancer",
+    "melee": "mace",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "bolt staff",
+    "rangeProps": ["infantry", " skaven", " thermal EQ"],
+    "talents": "1-1-2-1-3-3",
+    "image": "necromancer.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "necromancer",
+    "melee": "flail",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "soulstealer staff",
+    "rangeProps": ["armored", " skaven", " thermal EQ"],
+    "talents": "1-1-2-1-3-3",
+    "image": "necromancer.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "necromancer",
+    "melee": "sword",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "beam staff",
+    "rangeProps": ["chaos", " infantry", " hunter"],
+    "talents": "1-3-2-1-3-2",
+    "image": "necromancer.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "ranger vet",
+    "melee": "great axe",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "throwing axes",
+    "rangeProps": ["infantry", " crit chance", " hunter"],
+    "talents": "2-1-3-1-2-1",
+    "image": "rv.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "ranger vet",
+    "melee": "hammer",
+    "meleeProps": ["block cost reduction", " skaven", " opportunist"],
+    "range": "masterwork pistol",
+    "rangeProps": ["skaven", " monster", " barrage"],
+    "talents": "1-2-3-2-2-3",
+    "image": "rv.webp",
+    "charm": ["skaven", " armored"]
+  },
+  {
+    "career": "ranger vet",
+    "melee": "war pick",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "grudge-raker",
+    "rangeProps": ["infantry", " crit chance", " hunter"],
+    "talents": "2-3-3-2-3-3",
+    "image": "rv.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "ranger vet",
+    "melee": "great hammer",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "crossbow",
+    "rangeProps": ["infantry", " skaven", " conservative shooter"],
+    "talents": "1-3-3-3-3-3",
+    "image": "rv.webp",
+    "charm": ["atk speed", " chaos"]
   }
 ]
