@@ -194,6 +194,13 @@ h4 {
   right: 0;
 }
 
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 130px;
+}
+
 #career-select {
   background: none;
   color: var(--clr-light-grayish-blue);
@@ -289,6 +296,24 @@ h4 {
   text-transform: capitalize;
 }
 
+#charm {
+  min-width: 150px;
+}
+
+.ddl {
+  font-size: 1.1rem;
+  color: var(--clr-trans-orange);
+  margin-top: 5px;
+}
+
+.ddl-link {
+  color: white;
+}
+
+.ddl-link:hover {
+  color: red;
+}
+
 /* Responsive */
 @media screen and (max-width: 870px) {
   h1 {
@@ -298,6 +323,10 @@ h4 {
 
   h2 {
     margin-inline: auto;
+  }
+
+  .logo {
+    display: none;
   }
 
   .build,
@@ -322,5 +351,13 @@ h4 {
 
   footer {
     position: relative;
+  }
+
+  #charm {
+    width: auto;
+  }
+
+  .ddl {
+    margin-inline: 20px;
   }
 }

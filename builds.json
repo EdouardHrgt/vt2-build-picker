@@ -2,17 +2,9 @@
   {
     "career": "waystalker",
     "melee": "greatsword",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "2-3-2-1-3-3",
     "image": "waystalker.webp",
     "charm": ["atk speed", " chaos"]
@@ -20,17 +12,9 @@
   {
     "career": "waystalker",
     "melee": "sword and dagger",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "2-2-3-2-3-3",
     "image": "waystalker.webp",
     "charm": ["skaven", " chaos"]
@@ -38,17 +22,9 @@
   {
     "career": "waystalker",
     "melee": "dual dagger",
-    "meleeProps": [
-      "block cost reduction",
-      " stamina",
-      " parry"
-    ],
+    "meleeProps": ["block cost reduction", " stamina", " parry"],
     "range": "hagbane",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " barrage"
-    ],
+    "rangeProps": ["skaven", " infantry", " barrage"],
     "talents": "1-3-2-2-3-3",
     "image": "waystalker.webp",
     "charm": ["infantry", " chaos"]
@@ -56,17 +32,9 @@
   {
     "career": "waystalker",
     "melee": "sword",
-    "meleeProps": [
-      "stamina",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["stamina", " crit chance", " swift slaying"],
     "range": "javelin",
-    "rangeProps": [
-      "skaven",
-      " armored",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " armored", " conservative shooter"],
     "talents": "2-2-3-1-3-2",
     "image": "waystalker.webp",
     "charm": ["atk speed", " skaven"]
@@ -74,17 +42,9 @@
   {
     "career": "handmaiden",
     "melee": "elven axe",
-    "meleeProps": [
-      "stamina",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["stamina", " crit chance", " swift slaying"],
     "range": "moonbow",
-    "rangeProps": [
-      "skaven",
-      " crit chance",
-      " hunter"
-    ],
+    "rangeProps": ["skaven", " crit chance", " hunter"],
     "talents": "1-3-1-3-2-3",
     "image": "handmaiden.webp",
     "charm": ["infantry", " skaven"]
@@ -92,17 +52,9 @@
   {
     "career": "handmaiden",
     "melee": "glaive",
-    "meleeProps": [
-      "stamina",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["stamina", " crit chance", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "1-3-1-1-3-3",
     "image": "handmaiden.webp",
     "charm": ["atk speed", " chaos"]
@@ -110,17 +62,9 @@
   {
     "career": "handmaiden",
     "melee": "dual sword",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "javelin",
-    "rangeProps": [
-      "skaven",
-      " armored",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " armored", " conservative shooter"],
     "talents": "1-1-3-3-3-2",
     "image": "handmaiden.webp",
     "charm": ["atk speed", " infantry"]
@@ -128,17 +72,9 @@
   {
     "career": "handmaiden",
     "melee": "spear",
-    "meleeProps": [
-      "stamina",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["stamina", " crit chance", " swift slaying"],
     "range": "moonbow",
-    "rangeProps": [
-      "skaven",
-      "infantry",
-      " scrounger"
-    ],
+    "rangeProps": ["skaven", "infantry", " scrounger"],
     "talents": "1-3-1-1-2-3",
     "image": "handmaiden.webp",
     "charm": ["atk speed", " chaos"]
@@ -146,17 +82,9 @@
   {
     "career": "shade",
     "melee": "dual daggers",
-    "meleeProps": [
-      "block cost reduction",
-      " stamina",
-      " parry"
-    ],
+    "meleeProps": ["block cost reduction", " stamina", " parry"],
     "range": "moonbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " hunter"
-    ],
+    "rangeProps": ["skaven", " infantry", " hunter"],
     "talents": "1-1-1-1-1-1",
     "image": "shade.webp",
     "charm": ["infantry", " chaos"]
@@ -164,17 +92,9 @@
   {
     "career": "shade",
     "melee": "sword and dagger",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "1-3-2-3-1-3",
     "image": "shade.webp",
     "charm": ["atk speed", " chaos"]
@@ -182,17 +102,9 @@
   {
     "career": "shade",
     "melee": "spear",
-    "meleeProps": [
-      "crit chance",
-      " stamina",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " stamina", " swift slaying"],
     "range": "javelin",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "1-3-2-1-1-3",
     "image": "shade.webp",
     "charm": ["atk speed", " chaos"]
@@ -200,17 +112,9 @@
   {
     "career": "shade",
     "melee": "elven axe",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "swift bow",
-    "rangeProps": [
-      "skaven",
-      " crit chance",
-      " hunter"
-    ],
+    "rangeProps": ["skaven", " crit chance", " hunter"],
     "talents": "1-3-2-1-1-1",
     "image": "shade.webp",
     "charm": ["atk speed", " chaos"]
@@ -218,17 +122,9 @@
   {
     "career": "sott",
     "melee": "dual daggers",
-    "meleeProps": [
-      "block cost reduction",
-      " stamina",
-      " parry"
-    ],
+    "meleeProps": ["block cost reduction", " stamina", " parry"],
     "range": "deepwood staff",
-    "rangeProps": [
-      "skaven",
-      " armored",
-      " thermal equalizer"
-    ],
+    "rangeProps": ["skaven", " armored", " thermal equalizer"],
     "talents": "1-2-1-3-3-2",
     "image": "sott.webp",
     "charm": ["armored", " chaos"]
@@ -236,17 +132,9 @@
   {
     "career": "sott",
     "melee": "sword and dagger",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "deepwood staff",
-    "rangeProps": [
-      "skaven",
-      " armored",
-      " thermal equalizer"
-    ],
+    "rangeProps": ["skaven", " armored", " thermal equalizer"],
     "talents": "1-2-1-3-1-2",
     "image": "sott.webp",
     "charm": ["atk speed", " chaos"]
@@ -254,17 +142,9 @@
   {
     "career": "sott",
     "melee": "spear",
-    "meleeProps": [
-      "crit chance",
-      " stamina",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " stamina", " swift slaying"],
     "range": "moonbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " hunter"
-    ],
+    "rangeProps": ["skaven", " infantry", " hunter"],
     "talents": "1-1-1-3-2-3",
     "image": "sott.webp",
     "charm": ["atk speed", " chaos"]
@@ -272,17 +152,9 @@
   {
     "career": "sott",
     "melee": "glaive",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "skaven",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
     "talents": "1-1-1-3-3-3",
     "image": "sott.webp",
     "charm": ["atk speed", " chaos"]
@@ -290,17 +162,9 @@
   {
     "career": "mercenary",
     "melee": "halberd",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "blunderbuss",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-1-2-3-1-1",
     "image": "mercenary.webp",
     "charm": ["atk speed", " chaos"]
@@ -308,17 +172,9 @@
   {
     "career": "mercenary",
     "melee": "two handed hammer",
-    "meleeProps": [
-      "crit chance",
-      " attack speed",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " attack speed", " swift slaying"],
     "range": "handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-1-2-3-2-1",
     "image": "mercenary.webp",
     "charm": ["atk speed", " chaos"]
@@ -326,17 +182,9 @@
   {
     "career": "mercenary",
     "melee": "bret longsword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-2-2-1-1-2",
     "image": "mercenary.webp",
     "charm": ["atk speed", " chaos"]
@@ -344,17 +192,9 @@
   {
     "career": "mercenary",
     "melee": "greatsword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "repeater handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " scrounger"
-    ],
+    "rangeProps": ["chaos", " infantry", " scrounger"],
     "talents": "1-1-2-3-1-1",
     "image": "mercenary.webp",
     "charm": ["atk speed", " chaos"]
@@ -362,17 +202,9 @@
   {
     "career": "huntsman",
     "melee": "mace",
-    "meleeProps": [
-      "stamina",
-      " block cost reduction",
-      " opportunist"
-    ],
+    "meleeProps": ["stamina", " block cost reduction", " opportunist"],
     "range": "repeater handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " scrounger"
-    ],
+    "rangeProps": ["chaos", " infantry", " scrounger"],
     "talents": "1-1-3-1-1-1",
     "image": "huntsman.webp",
     "charm": ["infantry", " chaos"]
@@ -380,17 +212,9 @@
   {
     "career": "huntsman",
     "melee": "sword and shield",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "longbow",
-    "rangeProps": [
-      "armored",
-      " skaven",
-      " hunter"
-    ],
+    "rangeProps": ["armored", " skaven", " hunter"],
     "talents": "1-3-3-2-1-2",
     "image": "huntsman.webp",
     "charm": ["infantry", " chaos"]
@@ -398,17 +222,9 @@
   {
     "career": "huntsman",
     "melee": "bret sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-2-2-2-2-1",
     "image": "huntsman.webp",
     "charm": ["atk speed", " chaos"]
@@ -416,17 +232,9 @@
   {
     "career": "huntsman",
     "melee": "tuskgor spear",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "blunderbuss",
-    "rangeProps": [
-      "skaven",
-      " crit chance",
-      " scrounger"
-    ],
+    "rangeProps": ["skaven", " crit chance", " scrounger"],
     "talents": "1-1-3-1-1-2",
     "image": "huntsman.webp",
     "charm": ["infantry", " chaos"]
@@ -434,17 +242,9 @@
   {
     "career": "foot knight",
     "melee": "halberd",
-    "meleeProps": [
-      "attack speed",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["attack speed", " block cost reduction", " swift slaying"],
     "range": "handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "2-3-3-3-1-3",
     "image": "fk.webp",
     "charm": ["atk speed", " chaos"]
@@ -452,17 +252,9 @@
   {
     "career": "foot knight",
     "melee": "bret sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "blunderbuss",
-    "rangeProps": [
-      "skaven",
-      " crit chance",
-      " hunter"
-    ],
+    "rangeProps": ["skaven", " crit chance", " hunter"],
     "talents": "2-3-3-3-1-3",
     "image": "fk.webp",
     "charm": ["atk speed", " chaos"]
@@ -470,17 +262,9 @@
   {
     "career": "foot knight",
     "melee": "two handed hammer",
-    "meleeProps": [
-      "attack speed",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["attack speed", " crit chance", " swift slaying"],
     "range": "handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-2-3-3-1-3",
     "image": "fk.webp",
     "charm": ["atk speed", " chaos"]
@@ -488,17 +272,9 @@
   {
     "career": "foot knight",
     "melee": "mace",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "repeater handgun",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " conservative shooter"
-    ],
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
     "talents": "1-3-3-3-1-2",
     "image": "fk.webp",
     "charm": ["atk speed", " chaos"]
@@ -506,17 +282,9 @@
   {
     "career": "grail knight",
     "melee": "two handed hammer",
-    "meleeProps": [
-      "attack speed",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["attack speed", " crit chance", " swift slaying"],
     "range": "mace and shield",
-    "rangeProps": [
-      "stamina",
-      " block cost reduction",
-      " opportunist"
-    ],
+    "rangeProps": ["stamina", " block cost reduction", " opportunist"],
     "talents": "1-3-2-3-3-3",
     "image": "gk.webp",
     "charm": ["atk speed", " chaos"]
@@ -524,17 +292,9 @@
   {
     "career": "grail knight",
     "melee": "greatsword",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "mace",
-    "rangeProps": [
-      "stamina",
-      " block cost reduction",
-      " opportunist"
-    ],
+    "rangeProps": ["stamina", " block cost reduction", " opportunist"],
     "talents": "1-2-2-3-1-1",
     "image": "gk.webp",
     "charm": ["atk speed", " chaos"]
@@ -542,17 +302,9 @@
   {
     "career": "grail knight",
     "melee": "executioner sword",
-    "meleeProps": [
-      "attack speed",
-      " chaos",
-      " swift slaying"
-    ],
+    "meleeProps": ["attack speed", " chaos", " swift slaying"],
     "range": "sword and shield",
-    "rangeProps": [
-      "stamina",
-      " block cost reduction",
-      " opportunist"
-    ],
+    "rangeProps": ["stamina", " block cost reduction", " opportunist"],
     "talents": "1-1-2-3-1-1",
     "image": "gk.webp",
     "charm": ["atk speed", " chaos"]
@@ -560,17 +312,9 @@
   {
     "career": "battle wizard",
     "melee": "dagger",
-    "meleeProps": [
-      "stamina",
-      " block cost reduction",
-      " parry"
-    ],
+    "meleeProps": ["stamina", " block cost reduction", " parry"],
     "range": "bolt staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " thermal EQ"
-    ],
+    "rangeProps": ["chaos", " infantry", " thermal EQ"],
     "talents": "1-1-3-2-1-1",
     "image": "bw.webp",
     "charm": ["infantry", " chaos"]
@@ -578,17 +322,9 @@
   {
     "career": "battle wizard",
     "melee": "fire sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "flamestorm staff",
-    "rangeProps": [
-      "skaven",
-      " armored",
-      " barrage"
-    ],
+    "rangeProps": ["skaven", " armored", " barrage"],
     "talents": "1-3-3-1-2-2",
     "image": "bw.webp",
     "charm": ["armored", " skaven"]
@@ -596,17 +332,9 @@
   {
     "career": "battle wizard",
     "melee": "fire sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "coruscation staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " thermal EQ"
-    ],
+    "rangeProps": ["chaos", " infantry", " thermal EQ"],
     "talents": "1-2-3-1-2-3",
     "image": "bw.webp",
     "charm": ["chaos", " infantry"]
@@ -614,17 +342,9 @@
   {
     "career": "battle wizard",
     "melee": "crowbill",
-    "meleeProps": [
-      "crit chance",
-      " stamina",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " stamina", " swift slaying"],
     "range": "bolt staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " thermal EQ"
-    ],
+    "rangeProps": ["chaos", " infantry", " thermal EQ"],
     "talents": "2-1-2-2-3-3",
     "image": "bw.webp",
     "charm": ["infantry", " atk speed"]
@@ -632,17 +352,9 @@
   {
     "career": "pyromancer",
     "melee": "sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "beam staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " hunter"
-    ],
+    "rangeProps": ["chaos", " infantry", " hunter"],
     "talents": "1-1-1-1-1-1",
     "image": "pyromancer.webp",
     "charm": ["infantry", " chaos"]
@@ -650,17 +362,9 @@
   {
     "career": "pyromancer",
     "melee": "ensorcelled reaper",
-    "meleeProps": [
-      "block cost reduction",
-      " attack speed",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " attack speed", " swift slaying"],
     "range": "conflagration staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " hunter"
-    ],
+    "rangeProps": ["chaos", " infantry", " hunter"],
     "talents": "1-3-1-3-3-2",
     "image": "pyromancer.webp",
     "charm": ["atk speed", " chaos"]
@@ -668,17 +372,9 @@
   {
     "career": "pyromancer",
     "melee": "sword",
-    "meleeProps": [
-      "crit chance",
-      " block cost reduction",
-      " swift slaying"
-    ],
+    "meleeProps": ["crit chance", " block cost reduction", " swift slaying"],
     "range": "coruscation staff",
-    "rangeProps": [
-      "chaos",
-      " crit chance",
-      " heat sink"
-    ],
+    "rangeProps": ["chaos", " crit chance", " heat sink"],
     "talents": "1-3-1-1-1-1",
     "image": "pyromancer.webp",
     "charm": ["infantry", " chaos"]
@@ -686,19 +382,51 @@
   {
     "career": "pyromancer",
     "melee": "mace",
-    "meleeProps": [
-      "block cost reduction",
-      " crit chance",
-      " swift slaying"
-    ],
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
     "range": "fireball staff",
-    "rangeProps": [
-      "chaos",
-      " infantry",
-      " barrage"
-    ],
+    "rangeProps": ["chaos", " infantry", " barrage"],
     "talents": "1-3-1-3-3-2",
     "image": "pyromancer.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "unchained",
+    "melee": "mace",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "coruscation staff",
+    "rangeProps": ["skaven", " armored", " hunter"],
+    "talents": "2-1-3-2-2-3",
+    "image": "uc.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "unchained",
+    "melee": "scythe",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "beam staff",
+    "rangeProps": ["infantry", " chaos", " hunter"],
+    "talents": "1-1-3-2-2-3",
+    "image": "uc.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "career": "unchained",
+    "melee": "dagger",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "boltstaff",
+    "rangeProps": ["infantry", " skaven", " thermal EQ"],
+    "talents": "1-1-3-2-2-3",
+    "image": "uc.webp",
+    "charm": ["infantry", " chaos"]
+  },
+  {
+    "career": "unchained",
+    "melee": "fire sword",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "flamestorm staff",
+    "rangeProps": ["infantry", " chaos", " barrage"],
+    "talents": "1-3-3-2-1-2",
+    "image": "uc.webp",
     "charm": ["atk speed", " chaos"]
   }
 ]
