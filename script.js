@@ -38,7 +38,7 @@ function isBuildBlocked(build, blockedBuilds) {
 
 // Selecting DOM elements
 const rollBuild = document.getElementById("mybtn");
-const careerSelect = document.getElementById("career-select");
+const heroSelect = document.getElementById("hero-select"); // HERO select
 const checkbox = document.getElementById("block-build-checkbox");
 const resetButton = document.getElementById("reset-blocked");
 
@@ -48,7 +48,7 @@ let currentBuild = null;
 // Event to roll a random build
 rollBuild.addEventListener("click", () => {
   loadBuilds().then((data) => {
-    const selectedCareer = careerSelect.value;
+    const selectedHero = heroSelect.value;
     const blockedBuilds = getBlockedBuilds();
 
     // Filter out blocked builds
@@ -56,15 +56,15 @@ rollBuild.addEventListener("click", () => {
       (build) => !isBuildBlocked(build, blockedBuilds)
     );
 
-    // Filter by selected career, if any
-    if (selectedCareer) {
+    // Filter by selected hero, if any
+    if (selectedHero) {
       filteredData = filteredData.filter(
-        (build) => build.career === selectedCareer
+        (build) => build.hero === selectedHero
       );
     }
 
     if (filteredData.length === 0) {
-      alert("No build available for this career (or all are blocked).");
+      alert("No builds availables for this hero (or they are all blocked)");
       return;
     }
 
@@ -104,5 +104,5 @@ checkbox.addEventListener("change", () => {
 // Reset blocked builds
 resetButton.addEventListener("click", () => {
   localStorage.removeItem("blockedBuilds");
-  alert("Blocked builds list has been reset.");
+  alert("builds list reseted");
 });

@@ -1,6 +1,5 @@
 -----------------------------------------------------
 Builds are easy to make, just use this template.
-Don't bother changing the image value, i'll do it.
 
 You can contact me on steam or discord (bobely)
 
@@ -8,6 +7,7 @@ Thanks for your help!!
 -----------------------------------------------------
 
 {
+    "hero": "sienna",
     "career": "unchained",
     "melee": "mace",
     "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
@@ -16,4 +16,4 @@ Thanks for your help!!
     "talents": "2-1-3-2-2-3",
     "image": "LEAVE THIS BLANK",
     "charm": ["atk speed", " chaos"]
-  }
+}
