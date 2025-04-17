@@ -9,6 +9,7 @@
   --filter: rgba(0, 0, 0, 0.5);
 }
 
+/* Reset & Global Styles */
 * {
   font-family: "Markazi Text", serif;
   padding: 0;
@@ -24,14 +25,6 @@ body {
 
 body {
   background-image: url("./img/vt2-bckg.png");
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 2rem;
 }
 
 img {
@@ -73,15 +66,7 @@ footer p {
   letter-spacing: 1px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  margin-top: 1em;
-}
-
+/* Typography */
 h1,
 h2,
 h3,
@@ -93,30 +78,38 @@ h4 {
 h1 {
   color: white;
   font-size: 4em;
-  letter-spacing: 0.7px;
-  margin: 2.5rem auto 1rem;
   text-align: center;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
+  letter-spacing: 0.7px;
+  margin: 2.5rem auto 1rem;
 }
 
 h1::before,
-h1::after {
+h1::after,
+h2::before,
+h2::after,
+.talents h4::before,
+.talents h4::after,
+.remove-label::before,
+.remove-label::after {
   content: "";
-  width: 2.5ch;
   height: 3px;
-  background-color: var(--clr-orange);
   position: absolute;
 }
 
 h1::before {
+  width: 2.5ch;
   top: 0;
   left: 0;
+  background-color: var(--clr-orange);
 }
 
 h1::after {
+  width: 2.5ch;
   bottom: 0;
   right: 0;
+  background-color: var(--clr-orange);
 }
 
 h2 {
@@ -125,22 +118,16 @@ h2 {
   margin-bottom: 3px;
 }
 
-h2::before,
-h2::after {
-  content: "";
-  height: 3px;
-  background-color: var(--clr-gray);
-  position: absolute;
-}
-
 h2::before {
   width: 3.5ch;
+  background-color: var(--clr-gray);
 }
 
 h2::after {
   width: 2ch;
   bottom: 0;
   right: 0;
+  background-color: var(--clr-gray);
 }
 
 h3 {
@@ -154,25 +141,51 @@ h4 {
   color: var(--clr-orange);
 }
 
-.talents h4::before,
-.talents h4::after {
-  content: "";
-  width: 2ch;
-  height: 3px;
-  background-color: var(--clr-gray);
-  position: absolute;
+strong {
+  color: var(--clr-orange);
 }
 
 .talents h4::before {
+  width: 2ch;
   top: 0;
   left: 0;
+  background-color: var(--clr-gray);
 }
 
 .talents h4::after {
+  width: 2ch;
   bottom: 0;
   right: 0;
+  background-color: var(--clr-gray);
 }
 
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  width: 140px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* Utility / Components */
 .remove-label {
   color: var(--clr-light-gray);
   font-size: 1.2em;
@@ -183,32 +196,21 @@ h4 {
   position: relative;
 }
 
-.remove-label::before,
-.remove-label::after {
-  content: "";
-  width: 3ch;
-  height: 3px;
-  background-color: var(--clr-gray);
-  position: absolute;
-}
-
 .remove-label::before {
+  width: 3ch;
   top: 0;
   left: 0;
+  background-color: var(--clr-gray);
 }
 
 .remove-label::after {
+  width: 3ch;
   bottom: 0;
   right: 0;
+  background-color: var(--clr-gray);
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 3rem;
-  width: 140px;
-}
-
+/* Forms / Dropdowns */
 #hero-select,
 #source-select {
   background: none;
@@ -219,17 +221,23 @@ h4 {
   display: block;
 }
 
-.itsRolled {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.5s ease-in-out;
+#reset-blocked {
+  background: none;
+  border: 1px solid var(--clr-light-gray);
+  color: white;
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-top: 7px;
 }
 
-.itsRolled.visible {
-  opacity: 1;
-  pointer-events: auto;
+#reset-blocked:hover {
+  background-color: var(--clr-light-gray);
+  border: 1px solid var(--clr-gray);
 }
 
+/* Roll Section */
 .roll {
   padding-top: calc(10vh - 3rem);
   position: relative;
@@ -249,22 +257,18 @@ h4 {
   background-color: var(--clr-light-blue);
 }
 
-#reset-blocked {
-  background: none;
-  border: 1px solid var(--clr-light-gray);
-  color: white;
-  font-size: 1em;
-  letter-spacing: 1px;
-  padding: 5px 20px;
-  border-radius: 25px;
-  margin-top: 7px;
+.itsRolled {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
 }
 
-#reset-blocked:hover {
-  background-color: var(--clr-light-gray);
-  border: 1px solid var(--clr-gray);
+.itsRolled.visible {
+  opacity: 1;
+  pointer-events: auto;
 }
 
+/* Sections */
 .build,
 .weapons,
 .talents {
@@ -306,8 +310,10 @@ h4 {
 
 #charm {
   min-width: 150px;
+  width: auto;
 }
 
+/* Extra Content */
 .ddl {
   font-size: 1.1rem;
   color: var(--clr-trans-orange);
@@ -322,9 +328,8 @@ h4 {
   color: red;
 }
 
-
 #balance-label {
-  color:white;
+  color: white;
   font-size: 1.2rem;
   display: none;
 }
@@ -358,14 +363,11 @@ h4 {
   .weapons {
     flex-direction: column;
     gap: 1rem;
+    text-align: center;
   }
 
   .build {
     padding-top: 1rem;
-  }
-
-  .weapons {
-    text-align: center;
   }
 
   .talents {
@@ -376,10 +378,6 @@ h4 {
 
   footer {
     position: relative;
-  }
-
-  #charm {
-    width: auto;
   }
 
   .ddl {
