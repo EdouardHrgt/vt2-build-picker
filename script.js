@@ -1,5 +1,13 @@
 // Loading builds from the JSON file
 async function loadBuilds() {
+  const sourceSelect = document.getElementById("source-select");
+  const selectedSource = sourceSelect.value;
+
+  if (selectedSource === "tourney") {
+    alert("Builds not implemented yet");
+    return [];
+  }
+
   const res = await fetch("./builds.json");
   const data = await res.json();
   return data;
@@ -39,6 +47,7 @@ function isBuildBlocked(build, blockedBuilds) {
 // Selecting DOM elements
 const rollBuild = document.getElementById("mybtn");
 const heroSelect = document.getElementById("hero-select"); // HERO select
+const sourceSelect = document.getElementById("source-select"); // SOURCE select
 const checkbox = document.getElementById("block-build-checkbox");
 const resetButton = document.getElementById("reset-blocked");
 
@@ -48,6 +57,11 @@ let currentBuild = null;
 // Event to roll a random build
 rollBuild.addEventListener("click", () => {
   loadBuilds().then((data) => {
+    if (data.length === 0) {
+      // No builds loaded (e.g. tourney not implemented)
+      return;
+    }
+
     const selectedHero = heroSelect.value;
     const blockedBuilds = getBlockedBuilds();
 
@@ -104,5 +118,17 @@ checkbox.addEventListener("change", () => {
 // Reset blocked builds
 resetButton.addEventListener("click", () => {
   localStorage.removeItem("blockedBuilds");
-  alert("builds list reseted");
+  alert("Builds list reseted");
+});
+
+// Save and restore selected source in localStorage (optional)
+document.addEventListener("DOMContentLoaded", () => {
+  const savedSource = localStorage.getItem("buildSource");
+  if (savedSource) {
+    sourceSelect.value = savedSource;
+  }
+});
+
+sourceSelect.addEventListener("change", (e) => {
+  localStorage.setItem("buildSource", e.target.value);
 });

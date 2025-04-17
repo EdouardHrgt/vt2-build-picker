@@ -26,6 +26,14 @@ body {
   background-image: url("./img/vt2-bckg.png");
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -86,7 +94,7 @@ h1 {
   color: white;
   font-size: 4em;
   letter-spacing: 0.7px;
-  margin: 5rem auto 1rem;
+  margin: 2.5rem auto 1rem;
   text-align: center;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
@@ -197,18 +205,18 @@ h4 {
 .logo {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 130px;
+  left: 3rem;
+  width: 140px;
 }
 
-#hero-select {
+#hero-select,
+#source-select {
   background: none;
   color: var(--clr-light-grayish-blue);
   font-size: 1.2rem;
   text-align: center;
   padding: 0 0.5em;
   display: block;
-  margin: 3rem auto 0;
 }
 
 .itsRolled {
@@ -314,6 +322,18 @@ h4 {
   color: red;
 }
 
+
+#balance-label {
+  color:white;
+  font-size: 1.2rem;
+  display: none;
+}
+
+#wip {
+  color: red;
+  font-size: 0.5rem;
+}
+
 /* Responsive */
 @media screen and (max-width: 870px) {
   h1 {
@@ -327,6 +347,11 @@ h4 {
 
   .logo {
     display: none;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .build,

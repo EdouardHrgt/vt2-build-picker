@@ -649,6 +649,39 @@
     "charm": ["atk speed", " chaos"]
   },
   {
+    "hero": "bardin",
+    "career": "outcast engineer",
+    "melee": "hammer",
+    "meleeProps": ["stamina", " block cost reduction", " opportunist"],
+    "range": "handgun",
+    "rangeProps": ["chaos", " infantry", " conservative shooter"],
+    "talents": "1-1-3-3-1-2",
+    "image": "oe.webp",
+    "charm": ["atk speed", " skaven"]
+  },
+  {
+    "hero": "bardin",
+    "career": "outcast engineer",
+    "melee": "hammer and shield",
+    "meleeProps": ["attack speed", " block cost reduction", " opportunist"],
+    "range": "handgun",
+    "rangeProps": ["crit chance", " skaven", " scrounger"],
+    "talents": "1-1-3-2-2-2",
+    "image": "oe.webp",
+    "charm": ["chaos", " skaven"]
+  },
+  {
+    "hero": "bardin",
+    "career": "outcast engineer",
+    "melee": "great hammer",
+    "meleeProps": ["attack speed", " crit chance", " swift slaying"],
+    "range": "torpedo",
+    "rangeProps": ["chaos", " armored", " barrage"],
+    "talents": "1-3-3-3-3-1",
+    "image": "oe.webp",
+    "charm": ["chaos", " skaven"]
+  },
+  {
     "hero": "saltzpyre",
     "career": "wich hunter",
     "melee": "flail",
@@ -691,5 +724,138 @@
     "talents": "2-3-2-2-2-3",
     "image": "whc.webp",
     "charm": ["atk speed", " chaos"]
-  }
+  },
+  {
+    "hero": "saltzpyre",
+    "career": "bounty Hunter ",
+    "melee": "rapier",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "griffon-foot",
+    "rangeProps": ["skaven", "armored", "scrounger"],
+    "talents": "1-1-2-1-3-2",
+    "image": "bh.webp",
+    "charm": ["Infantry", " chaos"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "bounty Hunter ",
+  "melee":"rapier",
+  "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+  "range": "volley crossbow",
+  "rangeProps": ["chaos", " monsters", " scrounger"],
+  "talents": "1-3-3-3-3-3",
+  "image": "bh.webp",
+  "charm": ["monsters", " skaven"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "bounty Hunter",
+  "melee":"falchion",
+  "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+  "range": "crossbow",
+  "rangeProps": ["skaven", " infantry", " conservative shooter"],
+  "talents": "1-3-3-1-3-3",
+  "image": "bh.webp",
+  "charm": ["infantry", " chaos"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "bounty Hunter",
+  "melee":"flail",
+  "meleeProps": ["attack speed", " crit chance", " swift slaying"],
+  "range": "repeater pistol",
+  "rangeProps": ["skaven", "crit chance", "hunter"],
+  "talents": "2-1-2-3-3-1",
+  "image": "bh.webp",
+  "charm": ["skaven", " armored"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "zealot",
+  "melee":"rapier",
+  "meleeProps": ["block cost reduction", " stamina", " swift slaying"],
+  "range": "volley crossbow",
+  "rangeProps": ["skaven", " crit power", " scrounger"],
+  "talents": "1-2-3-1-1-1",
+  "image": "zealot.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "zealot",
+  "melee":"axe",
+  "meleeProps": ["stamina", " crit chance", " swift slaying"],
+  "range": "griffon-foot",
+  "rangeProps": ["skaven", " crit chance", " scrounger"],
+  "talents": "2-1-1-2-1-1",
+  "image": "zealot.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "zealot",
+  "melee":"holy great hammer",
+  "meleeProps": ["attack speed", " crit chance", " swift slaying"],
+  "range": "crossbow",
+  "rangeProps": ["skaven", " infantry", " conservative shooter"],
+  "talents": "1-1-1-1-3-3",
+  "image": "zealot.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "zealot",
+  "melee":"dual hammers",
+  "meleeProps": ["attack speed", " crit chance", " swift slaying"],
+  "range": "crossbow",
+  "rangeProps": ["skaven", " infantry", " conservative shooter"],
+  "talents": "1-1-1-2-3-1",
+  "image": "zealot.webp",
+  "charm": ["chaos", " infantry"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "warrior priest",
+  "melee":"hammer",
+  "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+  "range": "great hammer",
+  "rangeProps": ["crit chance", " attack speed", " swift slaying"],
+  "talents": "1-3-1-2-1-2",
+  "image": "wp.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "warrior priest",
+  "melee":"dual hammers",
+  "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+  "range": "hammer and tome",
+  "rangeProps": ["chaos", " attack speed", " swift slaying"],
+  "talents": "1-3-1-1-2-1",
+  "image": "wp.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "warrior priest",
+  "melee":"hammer and shield",
+  "meleeProps": ["block cost reduction", " stamina", " opportunist"],
+  "range": "great hammer",
+  "rangeProps": ["crit chance", " attack speed", " swift slaying"],
+  "talents": "1-2-1-3-3-1",
+  "image": "wp.webp",
+  "charm": ["chaos", " atk speed"]
+},
+{
+  "hero": "saltzpyre",
+  "career": "warrior priest",
+  "melee":"flail and shield",
+  "meleeProps": ["crit chance", " attack speed", " swift slaying"],
+  "range": "hammer and shield",
+  "rangeProps": ["block cost reduction", " stamina", " opportunist"],
+  "talents": "1-2-1-1-1-1",
+  "image": "wp.webp",
+  "charm": ["chaos", " atk speed"]
+}
+
 ]

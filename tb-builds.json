@@ -1,0 +1,24 @@
+[
+  {
+    "hero": "kerillian",
+    "career": "waystalker WIP",
+    "melee": "greatsword",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "longbow",
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
+    "talents": "2-3-2-1-3-3",
+    "image": "waystalker.webp",
+    "charm": ["atk speed", " chaos"]
+  },
+  {
+    "hero": "kerillian",
+    "career": "waystalker WIP",
+    "melee": "sword and dagger",
+    "meleeProps": ["block cost reduction", " crit chance", " swift slaying"],
+    "range": "longbow",
+    "rangeProps": ["skaven", " infantry", " conservative shooter"],
+    "talents": "2-2-3-2-3-3",
+    "image": "waystalker.webp",
+    "charm": ["skaven", " chaos"]
+  }
+]
