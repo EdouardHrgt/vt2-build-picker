@@ -4,8 +4,9 @@ async function loadBuilds() {
   const selectedSource = sourceSelect.value;
 
   if (selectedSource === "tourney") {
-    alert("Builds not implemented yet");
-    return [];
+    const res = await fetch("./tb-builds.json");
+    const data = await res.json();
+    return data;
   }
 
   const res = await fetch("./builds.json");
