@@ -49,6 +49,42 @@
   },
   {
     "hero": "kerillian",
+    "career": "shade",
+    "melee": "dual daggers",
+    "meleeProps": ["block cost reduction", " stamina", " parry"],
+    "range": "longbow",
+    "rangeProps": ["infantry", " skaven", " conservative shooter"],
+    "talents": "2-3-1-1-1-3",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"],
+    "meta": "off-meta"
+  },
+  {
+    "hero": "kerillian",
+    "career": "shade",
+    "melee": "sword and dagger",
+    "meleeProps": ["block cost reduction", " stamina", " swift slaying"],
+    "range": "longbow",
+    "rangeProps": ["infantry", " skaven", " conservative shooter"],
+    "talents": "3-3-2-3-1-3",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"],
+    "meta": "meta"
+  },
+  {
+    "hero": "kerillian",
+    "career": "shade",
+    "melee": "dual swords",
+    "meleeProps": ["block cost reduction", " stamina", " swift slaying"],
+    "range": "moonbow",
+    "rangeProps": ["crit chance", " skaven", " hunter"],
+    "talents": "3-3-2-1-1-3",
+    "image": "shade.webp",
+    "charm": ["atk speed", " chaos"],
+    "meta": "off-meta"
+  },
+  {
+    "hero": "kerillian",
     "career": "handmaiden",
     "melee": "elven axe",
     "meleeProps": ["block cost reduction", " stamina", " opportunist"],
@@ -426,7 +462,7 @@
     "meleeProps": ["crit chance", " block cost reduction", "  swift slaying"],
     "range": "handgun",
     "rangeProps": ["skaven", " armored", "  hunter"],
-    "talents": "3-2-3-1-1-2",
+    "talents": "3-3-3-1-1-2",
     "image": "huntsman.webp",
     "charm": ["skaven", " chaos"],
     "meta": "meta"
@@ -438,7 +474,7 @@
     "meleeProps": ["crit chance", " block cost reduction", "  swift slaying"],
     "range": "repeater handgun",
     "rangeProps": ["skaven", " crit chance", "  scrounger"],
-    "talents": "1-1-3-2-1-1",
+    "talents": "1-1-3-1-1-1",
     "image": "huntsman.webp",
     "charm": ["infantry", " chaos"],
     "meta": "meta"
